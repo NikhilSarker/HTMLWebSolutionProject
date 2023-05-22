@@ -1,0 +1,275 @@
+/* For desktop screen start */
+@media(max-width:1200px){
+  .get-in-touch .get-main .box-items{
+    width: 80%;
+  }
+  .menu-items ul li a{
+    margin-left: 8px;
+ }
+}
+/* For desktop screen end */
+/* For laptop screen start */
+@media(max-width:992px){
+  .container{
+    padding: 50px 175px;
+    margin: 0px auto;  
+  }
+  .menu .logo{
+    flex-basis: 100%;
+    text-align: center;
+    }
+    .menu .logo img{
+     width:200px;
+     height: 50px;     
+   }
+    .menu-items{
+     flex-basis: 100%;
+     padding-top: 20px;
+   }
+    .menu-items ul li a{
+      margin-left: 5px;
+   }
+
+   .content .content-text h3 {
+    font-size: 50px;
+    padding-top: 50px;
+  }
+  .content .content-text p {
+    font-size: 14px;
+  }
+  .content .content-text a {  
+    font-size: 14px; 
+  }
+
+  .services-col1 {
+    flex-basis: 100%;
+  }
+  .services-icon {
+    flex-basis: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .feature-main .left {
+    width: 100%;
+  }
+  .feature-main .right{
+    width: 100%;
+  }
+  .feature-main .right img {
+    width: 100%;
+    padding-top: 80px;
+  }
+  .left a{
+    font-size: 14px;
+    padding: 5px 10px; 
+    font-weight: 700;
+  }
+  .review-main .col1 {
+    flex-basis: 100%;
+    padding-top: 50px;
+  }
+  .customer-title p {
+    font-size: 16px; 
+  }
+  .customer-main .box-items .box1 {
+    margin-top: 30px;
+    flex-basis: 100%;
+  }
+  .feature-title p {
+    font-size: 16px;
+  }
+  .get-in-touch .get-main .box-items {
+    width: 100%;
+  }
+  .get-main .box-items .col1{
+    flex-basis: 100%;
+    padding-top: 40px;
+  }
+  .get-main .box-items .col1 p a {
+    font-size: 16px;
+  }
+  
+  .footer .text p {
+    font-size: 16px;
+  }
+
+}
+/* For laptop screen end */
+/* For tablet screen start */
+@media(max-width:768px){
+  .container{
+    padding: 50px 150px;
+    margin: 0px auto;  
+  }
+  .menu .logo{
+    flex-basis: 100%;
+    text-align: center;
+    }
+    .menu .logo img{
+     width:200px;
+     height: 50px;  
+   }
+    .menu-items{
+     flex-basis: 100%;
+     padding-top: 20px;
+   }
+   .menu-items ul .sign-up{
+     margin-top: 10px;
+     padding: 3px px;
+     font-size: 13px;
+   }
+
+   .content .content-text h3 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .content .content-text p {
+    font-size: 14px;
+  }
+  .content .content-text a {  
+    font-size: 14px; 
+  }
+  .services-col1 {
+    flex-basis: 100%;
+  }
+  .services-icon {
+    flex-basis: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .feature-main .left {
+    width: 100%;
+  }
+  .feature-main .right{
+    width: 100%;
+  }
+  .feature-main .right img {
+    width: 150%;
+    padding-top: 80px;
+  }
+  .left a{
+    font-size: 14px;
+    padding: 5px 10px; 
+    font-weight: 700;
+  }
+  .review-main .col1 {
+    flex-basis: 100%;
+    padding-top: 50px;
+  }
+  .customer-title p {
+    font-size: 16px; 
+  }
+  .customer-main .box-items .box1 {
+    flex-basis: 100%;
+  }
+  .feature-title p {
+    font-size: 16px;
+  }
+  .get-in-touch .get-main .box-items {
+    width: 100%;
+  }
+  .get-main .box-items .col1{
+    flex-basis: 100%;
+    padding-top: 40px;
+  }
+  .get-main .box-items .col1 p a {
+    font-size: 16px;
+  }
+  
+  .footer .text p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* For tablet screen end */
+/* For mobile screen start */
+@media(max-width:576px){
+  .container{
+    padding: 50px 100px;
+    margin: 0px auto;  
+  }
+  .menu .logo{
+ flex-basis: 100%;
+ }
+ .menu .logo img{
+  width:100%;
+  height: 50px; 
+}
+ .menu-items{
+  flex-basis: 100%;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+.menu-items ul .sign-up{
+  margin-top: 10px;
+  padding: 5px 12px;
+  font-size: 12px;
+}
+
+ 
+.content .content-text h3 {
+  font-size: 30px;
+  padding-top: 50px;
+}
+.content .content-text p {
+  font-size: 12px;
+}
+.content .content-text a {  
+  font-size: 10px; 
+}
+.services-col1 {
+  flex-basis: 100%;
+}
+.services-icon {
+  flex-basis: 20%;
+  padding-top: 30px;
+}
+.feature-main .left {
+  width: 100%;
+}
+.feature-main .right{
+  width: 100%;
+}
+.feature-main .right img {
+  width: 100%;
+  padding-top: 80px;
+}
+.left a{
+  font-size: 14px;
+  padding: 10px 15px; 
+}
+.review-main .col1 {
+  flex-basis: 100%;
+  /* padding-top: 50px; */
+}
+.customer-title p {
+  font-size: 14px; 
+}
+.box-items .box1 { 
+ flex-basis: 100%;
+}
+.box-items .box1 img{ 
+ width: 10%;
+}
+.feature-title p {
+  font-size: 14px;
+}
+.get-in-touch .get-main .box-items {
+  width: 100%;
+}
+.get-main .box-items .col1{
+  flex-basis: 100%;
+  padding-top: 40px;
+}
+.get-main .box-items .col1 p a {
+  font-size: 14px;
+}
+
+.footer .text p {
+  font-size: 13px;
+}
+}
+
+/* For mobile screen end */
